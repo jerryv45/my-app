@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
-import { Routes, Route, Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
+import { Switch, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
@@ -30,11 +30,11 @@ class NavBar extends Component {
           </Navbar>
         </div>
         <div>
-          <Routes>
+          <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about/contact" component={Contact} />
             <Route path="/about" component={About} />
-          </Routes>
+          </Switch>
         </div>
       </div>
     );
