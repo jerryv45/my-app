@@ -12,9 +12,9 @@ class NavBar extends Component {
     return (
       <div>
         <div id="bar">
-          <Navbar bg="light" variant="light">
+          <Navbar >
             <Navbar.Brand as={Link} to="/">
-              CALC-U
+              Issa Test
             </Navbar.Brand>
             <Nav className="ml-auto">
               <Nav.Link as={Link} to="/">

@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div>
-        <p>About</p>
+      <div className="center">
+        <p className="about-title">About</p>
       </div>
     );
   }
